@@ -23,7 +23,7 @@ I build this Extension to Connect the Socks Proxy on My Browerser only - Browse 
 
 ## Features 💅
 
-- Supports on all Browser Build with Chromium
+- Supports on Browser Build with Chromium
 - Socks Proxy with Port
 - Disable Switch
 - Get Porxy Status and IP
@@ -38,9 +38,9 @@ I build this Extension to Connect the Socks Proxy on My Browerser only - Browse 
 - [ ] Proxy Authorization
 - [ ] Better Error Validation
 
-![san proxy](https://raw.githubusercontent.com/mskian/gotify-push/master/images/sanproxy-1.jpg)  
+![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanproxy-1.jpg)  
 
-![san proxy](https://raw.githubusercontent.com/mskian/gotify-push/master/images/sanproxy-2.jpg)  
+![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanproxy-2.jpg)  
 
 ## LICENSE ☑
 
