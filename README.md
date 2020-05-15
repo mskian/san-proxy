@@ -1,16 +1,16 @@
 # San Proxy 🔐
 
-A simple and Lightweight Chromium based Extension for Connect the Socks Proxy.
+A simple and Lightweight Chromium based Extension for Connect the Socks5 Proxy.
 
 ## Why this Extension ❔
 
-I build this Extension to Connect the Socks Proxy on My Browerser only - Browse Anonymously 👀
+I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse Anonymously 👀
 
 ## Requirements 📃
 
-- Socks Proxy - `blazingseollc.com` Recommended Proxy provider
+- Socks5 Proxy - `blazingseollc.com` Recommended Proxy provider
 
-> Currently it supports IP Authorization Method only
+> Currently it supports IP Authorization Method only - <https://bugs.chromium.org/p/chromium/issues/detail?id=256785>
 
 ## Installation 📦
 
@@ -24,7 +24,7 @@ I build this Extension to Connect the Socks Proxy on My Browerser only - Browse 
 ## Features 💅
 
 - Supports on Browser Build with Chromium
-- Socks Proxy with Port
+- Socks5 Proxy with Port for HTTPS Connections
 - Disable Switch
 - Get Porxy Status and IP
 - System Font
