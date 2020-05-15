@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Gotify Setup</title>
+
+<link href="css/spectre.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="container text-center">
+
+<h2>Enter your Socks IP and PORT 🔐</h2>
+
+<br>
+
+<pre><code>example: 127.0.0.1:1080</code></pre>
+
+<form id="form">
+<div class="form-group">
+<input class="form-input" type="text" name="apiurl" id="apiurl" placeholder="Your Socks IP" autocomplete="off">
+</div>
+<button type="submit" class="btn btn-gotify btn-lg read-more">🗃 Save Proxy</button>
+</form>
+<br>
+<div id="save"></div>
+</div>
+<br>
+
+<div class="container text-center">
+<button class="btn btn-gotify btn-lg read-more" id="clear">⏺ Disable</button>
+</div>
+<br>
+<br>
+
+<table class="table">
+<thead>
+<tr>
+<th>Status</th>
+<th>IP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="active">
+<td><div id="status"></div></td>
+<td><div id="iptest"></div></td>
+</tr>
+</tbody>
+</table>
+
+<script src="js/storage.js"></script>
+<script src="js/proxy.js"></script>
+
+</body>
+</html>
