@@ -110,3 +110,15 @@ h2 {
    -moz-font-smoothing: antialiased !important;
    text-rendering: optimizelegibility !important;
   }
+  .user-form {
+    display: flex;
+    flex-grow: 0.3;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 32px;
+    padding: 20px;
+    -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased !important;
+   -moz-font-smoothing: antialiased !important;
+   text-rendering: optimizelegibility !important;
+}
