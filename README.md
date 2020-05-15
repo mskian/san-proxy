@@ -6,9 +6,9 @@ A simple and Lightweight Chromium based Extension for Connect the Socks Proxy.
 
 I build this Extension to Connect the Socks Proxy on My Browerser only - Browse Anonymously 👀
 
-## Requirments 📃
+## Requirements 📃
 
-- Socks Proxy (ipv4) - `blazingseollc.com` Recommended Proxy provider
+- Socks Proxy - `blazingseollc.com` Recommended Proxy provider
 
 > Currently it supports IP Authorization Method only
 
