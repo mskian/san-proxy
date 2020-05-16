@@ -8,9 +8,9 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 
 ## Requirements 📃
 
-- Socks5 Proxy - `blazingseollc.com` Recommended Proxy provider
+- Socks5 Proxy - `blazingseollc.com` and `www.webshare.io` Recommended Proxy providers
 
-> Currently it supports IP Authorization Method only - <https://bugs.chromium.org/p/chromium/issues/detail?id=256785>
+> Currently it supports **IP Authorization** Method only - <https://bugs.chromium.org/p/chromium/issues/detail?id=256785>
 
 ## Installation 📦
 
