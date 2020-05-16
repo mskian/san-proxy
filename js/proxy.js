@@ -1,7 +1,11 @@
 chrome.storage.sync.get(["apiurl"], function(result) {
 
-    console.log("Value currently is " + result.apiurl);
-    console.log("Activated the Proxy Server:", result.apiurl);
+    if (result.apiurl === undefined || result.apiurl === "") {
+        console.log("Proxy is not Configured");
+    } else {
+        console.log("Value currently is " + result.apiurl);
+        console.log("Activated the Proxy Server:", result.apiurl);
+    }
 
     if (result.apiurl === undefined || result.apiurl === "") {
         if (document.getElementById("status") != null) {
