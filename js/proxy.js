@@ -27,7 +27,7 @@ chrome.storage.sync.get(["apiurl"], function(result) {
                 host: result.apiurl.split(":")[0],
                 port: parseInt(result.apiurl.split(":")[1])
             },
-            bypassList: ["sanweb.info"]
+            bypassList: ["localhost"]
         }
     };
     if (result.apiurl === undefined || result.apiurl.split(":")[1] === undefined) {
