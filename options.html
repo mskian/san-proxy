@@ -3,9 +3,9 @@
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no, minimal-ui">
 
-<title>Gotify Setup</title>
+<title>San Proxy Setup</title>
 
 <link href="css/spectre.min.css" rel="stylesheet" />
 <link href="css/custom.css" rel="stylesheet" />
@@ -34,9 +34,23 @@
 
 <div class="container text-center">
 <button class="btn btn-gotify btn-lg read-more" id="clear">⏺ Disable</button>
+<br>
+<br>
+<div id="connection"></div>
 </div>
 <br>
 <br>
+
+<table class="table">
+<tr>
+<th>Back up</th>
+</tr>
+<tbody>
+<tr class="active">
+<td><pre><div id="proxyhistory"></div></pre></td>
+</tr>
+</tbody>
+</table>
 
 <table class="table">
 <thead>
@@ -48,7 +62,7 @@
 <tbody>
 <tr class="active">
 <td><div id="status"></div></td>
-<td><div id="iptest"></div></td>
+<td><pre><div id="iptest"></div></pre></td>
 </tr>
 </tbody>
 </table>

@@ -18,7 +18,7 @@ function saveOptions() {
             apiurl.classList.add('loading');
             setTimeout(() => {
                 apiurl.classList.remove('loading');
-                apiurl.innerHTML = '<b>IP Saved<b>';
+                apiurl.innerHTML = '<b>Settings Saved<b>';
             }, 1000);
             setTimeout(() => {
                 chrome.extension.getBackgroundPage().window.location.reload();
@@ -30,11 +30,13 @@ function saveOptions() {
 
 function clear() {
     document.getElementById('apiurl').value = '';
+    const connect = document.getElementById('connection');
+    connect.innerHTML = '<P><b>Disbaling the proxy Connection...<b><p>';
     setTimeout(() => {
         chrome.storage.sync.get(['apiurl'], function(result) {
-            console.log('Value currently is ' + result.apiurl);
+            console.log('Current Value is ' + result.apiurl);
         });
-        chrome.storage.sync.clear();
+        chrome.storage.sync.remove('apiurl');
         var config = {
             mode: "direct",
         }
