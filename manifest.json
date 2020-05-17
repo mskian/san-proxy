@@ -15,7 +15,6 @@
 		"webRequest",
 		"webRequestBlocking",
 		"webNavigation",
-		"activeTab",
 		"http://*/*",
 		"https://*/*"
 	],
@@ -30,6 +29,6 @@
 		"default_popup": "options.html"
 	},
 	"options_page": "options.html",
-	"short_name": "San proxy",
+	"short_name": "San Proxy",
 	"homepage_url": "https://sanweb.info"
 }
