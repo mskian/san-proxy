@@ -25,18 +25,20 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 
 - Supports on Browser Build with Chromium
 - Socks5 Proxy with Port for HTTPS Connections
-- Disable Switch
+- Disable option
 - Get Porxy Status and IP
 - System Font
 - Spectre.css Framework
 - Light Weight and Optimized
+- Backup the Storage
+- Proxy Status
 
 ## To Do ⚙
 
 - [ ] Multiple Proxy Support
-- [ ] Enable Button
+- [x] Backup
 - [ ] Proxy Authorization
-- [ ] Better Error Validation
+- [X] Better Error Validation
 
 ![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanproxy-1.jpg)  
 
