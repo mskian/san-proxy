@@ -1,6 +1,6 @@
 # San Proxy 🔐
 
-A simple and Lightweight Chromium based Extension for Connect the Socks5 Proxy.
+A simple and Lightweight Chromium based Extension for Connect the Socks5 Proxy
 
 ## Why this Extension ❔
 
@@ -24,9 +24,9 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 ## Features 💅
 
 - Supports on Browser Build with Chromium
-- Socks5 Proxy with Port for HTTPS Connections
+- Socks5 Proxy with Port for HTTPS Connection
 - Disable option
-- Get Porxy Status and IP
+- Get Proxy Status and IP
 - System Font
 - Spectre.css Framework
 - Light Weight and Optimized
