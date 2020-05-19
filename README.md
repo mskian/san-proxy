@@ -8,7 +8,7 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 
 ## Requirements 📃
 
-- Socks5 Proxy - `blazingseollc.com` and `www.webshare.io` Recommended Proxy providers
+- Socks Proxy - `blazingseollc.com` and `www.webshare.io` Recommended Proxy providers
 
 > Currently it supports **IP Authorization** Method only - <https://bugs.chromium.org/p/chromium/issues/detail?id=256785>
 
@@ -24,7 +24,7 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 ## Features 💅
 
 - Supports on Browser Build with Chromium
-- Socks5 Proxy with Port for HTTPS Connection
+- Socks5 Proxy with Port Support HTTP, HTTPS and FTP Connections
 - Disable option
 - Get Proxy Status and IP
 - System Font
