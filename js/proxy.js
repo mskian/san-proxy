@@ -22,7 +22,7 @@ chrome.storage.sync.get(["apiurl"], function(result) {
     var config = {
         mode: "fixed_servers",
         rules: {
-            proxyForHttps: {
+            singleProxy: {
                 scheme: "socks5",
                 host: result.apiurl.split(":")[0],
                 port: parseInt(result.apiurl.split(":")[1])
