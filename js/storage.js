@@ -60,6 +60,27 @@ function restoreOptions() {
     });
 }
 
+function restoreBackup() {
+    chrome.storage.sync.get({
+        backup: []
+    }, restore => {
+        if (restore.backup == 0) {
+            document.getElementById('connection').innerHTML = '<b>No backup</b>';
+            setTimeout(() => {
+                document.getElementById('connection').innerHTML = '';
+            }, 2000);
+        } else {
+            document.getElementById('connection').innerHTML = '<p>Restored <b>Save Proxy 👆</b> to Connect the Server</p>';
+            setTimeout(() => {
+                document.getElementById('connection').innerHTML = '';
+            }, 3000);
+            if (document.getElementById('apiurl') != null) {
+                document.getElementById('apiurl').value = restore.backup;
+            }
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', restoreOptions);
 var el = document.getElementById('save');
 if (el) {
@@ -76,4 +97,8 @@ if (gc) {
 
 if (document.getElementById('clear') != null) {
     document.getElementById('clear').addEventListener('click', clear);
+}
+
+if (document.getElementById('backuprestore') != null) {
+    document.getElementById('backuprestore').addEventListener('click', restoreBackup);
 }
