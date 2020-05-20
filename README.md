@@ -32,6 +32,7 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 - Light Weight and Optimized
 - Backup the Storage
 - Proxy Status
+- Restore Option
 
 ## To Do ⚙
 
