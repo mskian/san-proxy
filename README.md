@@ -41,9 +41,9 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 - [ ] Proxy Authorization
 - [X] Better Error Validation
 
-![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanproxy-1.jpg)  
+![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanweb-proxy1.png)  
 
-![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanproxy-2.jpg)  
+![san proxy](https://raw.githubusercontent.com/mskian/san-proxy/master/images/sanweb-proxy2.png)  
 
 ## LICENSE ☑
 
