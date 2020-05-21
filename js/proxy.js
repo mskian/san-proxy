@@ -51,7 +51,7 @@ chrome.storage.sync.get(["apiurl"], function(result) {
 async function fetchip() {
     try {
         await new Promise(resolve => setTimeout(resolve, 500));
-        const response = await fetch("https://api.ipify.org/?format=json");
+        const response = await fetch("https://api.sanweb.info/myip/");
         var data = await response.json();
         console.log(data.ip);
         if (document.getElementById("iptest") != null) {
