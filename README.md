@@ -2,9 +2,11 @@
 
 A simple and Lightweight Chromium based Extension for Connect the Socks5 Proxy
 
+[![San Proxy](https://res.cloudinary.com/veer/image/upload/v1590140120/web-store_iwlsro.png)](https://chrome.google.com/webstore/detail/san-proxy/hfkbfaacabmkdnemhpffhhhpnecnmkjg)  
+
 ## Why this Extension ❔
 
-I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse Anonymously 👀
+I build this Extension to Connect the Socks5 Proxy on My Browser only - Browse Anonymously 👀
 
 ## Requirements 📃
 
@@ -13,6 +15,8 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 > Currently it supports **IP Authorization** Method only - <https://bugs.chromium.org/p/chromium/issues/detail?id=256785>
 
 ## Installation 📦
+
+> For Development and Test the Latest Features
 
 - Download or Clone this Github Respo
 - Open the Extension Management Page - `chrome://extensions`
@@ -24,7 +28,7 @@ I build this Extension to Connect the Socks5 Proxy on My Browerser only - Browse
 ## Features 💅
 
 - Supports on Browser Build with Chromium
-- Socks5 Proxy with Port Support HTTP, HTTPS and FTP Connections
+- Socks5 Proxy with Port - Supports HTTP, HTTPS and FTP
 - Disable option
 - Get Proxy Status and IP
 - System Font
