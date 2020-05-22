@@ -28,7 +28,7 @@ I build this Extension to Connect the Socks5 Proxy on My Browser only - Browse A
 ## Features 💅
 
 - Supports on Browser Build with Chromium
-- Socks5 Proxy with Port - Supports HTTP, HTTPS and FTP
+- Socks5 Proxy with Port - Supports HTTP, HTTPS and FTP Connections
 - Disable option
 - Get Proxy Status and IP
 - System Font
