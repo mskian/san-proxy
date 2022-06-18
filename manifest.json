@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "San Proxy",
 	"description": "San Proxy - A Chromium Based Extension for using Socks Proxy.",
-	"version": "0.2",
+	"version": "0.3",
 	"icons": {
 		"128": "images/Icon-128.png",
 		"48": "images/Icon-48.png",
