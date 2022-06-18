@@ -10,11 +10,7 @@
 	},
 	"permissions": [
 		"proxy",
-		"tabs",
 		"storage",
-		"webRequest",
-		"webRequestBlocking",
-		"webNavigation",
 		"http://*/*",
 		"https://*/*"
 	],
